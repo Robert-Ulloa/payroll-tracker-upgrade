@@ -9,24 +9,24 @@ const collectEmployees = function() {
   let addMore = true;
 
   while (addMore) {
-    const firstName = prompt("Enter the employee's first name:");
-    const lastName = prompt("Enter the employee's last name:");
+    const firstName = prompt("Enter the employee's First name:");
+    const lastName = prompt("Enter the employee's Last name:");
     const salary = parseFloat(prompt("Enter the employee's salary:"));
     
     employees.push({ firstName, lastName, salary });
-
     addMore = confirm("Do you want to add another employee?");
+      // Sort employees alphabetically by last name
+    employees.sort((a, b) => a.lastName.localeCompare(b.lastName));
   }
-
   return employees;
 }
-
 // Display the average salary
 const displayAverageSalary = function(employeesArray) {
   // Calculate and display the average salary
+
     const totalSalary = employeesArray.reduce((acc, employee) => acc + employee.salary, 0);
     const averageSalary = totalSalary / employeesArray.length;
-  
+
     console.log(`The average employee salary between our ${employeesArray.length} employee(s) is ${averageSalary.toLocaleString("en-US", { style: "currency", currency: "USD" })}.`);
   }
   
@@ -36,17 +36,8 @@ const getRandomEmployee = function(employeesArray) {
       // Select and display a random employee
   const randomIndex = Math.floor(Math.random() * employeesArray.length);
   const randomEmployee = employeesArray[randomIndex];
-
-  console.log(`Congratulations to: ${randomEmployee.firstName} ${randomEmployee.lastName} on winning our random employee drawing!`);
+  console.log(`Congratulations to: ${randomEmployee.firstName} ${randomEmployee.lastName} on winning our random employee drawingdrawing🎉!`);
 }
-// Track employee data
-const trackEmployeeD = function() {
-  // Function code here
-}
-
-// Add event listener to 'Add Employees' button
-addEmployeesBtn.addEventListener('click', trackEmployeeD);
-
 
 /*
   ====================
