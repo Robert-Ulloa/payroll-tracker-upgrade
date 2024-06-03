@@ -1,4 +1,4 @@
-# payroll-trakcer-upgrade
+# payroll-tracker-upgrade
 
 ## Introduction
 Welcome to the Payroll Tracker! This application allows you to manage employee data, calculate the average salary, and randomly select an employee for a drawing. The user-friendly interface helps you easily collect and display employee information.
