@@ -19,7 +19,7 @@ Welcome to the Payroll Tracker! This application allows you to manage employee d
 
 ## mock Up
 ![Gif showcasing the functionality of the Payroll Tracker](Assets/1.gif)
-![Screenshot showcasing the functionality of the Payroll Tracker and the console](assets/C31.png)
+![Screenshot showcasing the functionality of the Payroll Tracker and the console](Assets/C31.png)
 
 
 ## Contributing
