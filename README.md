@@ -1,4 +1,4 @@
-# payroll-trakcer-upgrade
+# payroll-tracker-upgrade
 
 ## Introduction
 Welcome to the Payroll Tracker! This application allows you to manage employee data, calculate the average salary, and randomly select an employee for a drawing. The user-friendly interface helps you easily collect and display employee information.
@@ -18,7 +18,7 @@ Welcome to the Payroll Tracker! This application allows you to manage employee d
 [Payroll Tracker](https://robert-ulloa.github.io/payroll-trakcer-upgrade/)
 
 ## mock Up
-![Gif showcasing the functionality of the Payroll Tracker](Assets/C3.gif)
+![Gif showcasing the functionality of the Payroll Tracker](Assets/1.gif)
 ![Screenshot showcasing the functionality of the Payroll Tracker and the console](assets/C31.png)
 
 
