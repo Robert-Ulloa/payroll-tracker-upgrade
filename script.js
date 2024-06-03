@@ -16,8 +16,9 @@ const collectEmployees = function() {
     employees.push({ firstName, lastName, salary });
     addMore = confirm("Do you want to add another employee?");
       // Sort employees alphabetically by last name
-    employees.sort((a, b) => a.lastName.localeCompare(b.lastName));
   }
+  employees.sort((a, b) => a.lastName.localeCompare(b.lastName));
+
   return employees;
 }
 // Display the average salary
