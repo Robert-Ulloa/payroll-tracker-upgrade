@@ -15,7 +15,7 @@ Welcome to the Payroll Tracker! This application allows you to manage employee d
 - JavaScript
 
 ## Deployment Link
-- [Payroll Tracker](https://robert-ulloa.github.io/payroll-trakcer-upgrade/)
+- [Payroll Tracker](https://robert-ulloa.github.io/payroll-tracker-upgrade/)
 
 - [GitHub Repo](https://github.com/Robert-Ulloa/payroll-tracker-upgrade)
 
